@@ -5,7 +5,26 @@
         "ProjectId": "c594bbe2-b992-4d2b-b5ac-678b49fe8f43",
         "ProjectName": "first_project",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "f005157d-82e9-45c6-91a1-c42dfba3f828",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "c86fe571-68f1-4906-a264-7e4d0eb3f554",
+                "DatabaseAliasName": "firstDb",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/aayush-mittal9/Dbmaestro_first_db.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -21,7 +40,30 @@
       "UserData": [
         {
           "UserName": "aayush-mittal9",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "c86fe571-68f1-4906-a264-7e4d0eb3f554",
+              "DatabaseAliasName": "firstDb",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "AAYUSH\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "first_db",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "aayush-mittal9",
+                "Password": "FJMskGaST5eiV80icOTldY+cj4O1H5aq6wX40fAkV4RmwTuJA/jiIZ43DMHpxd7x"
+              }
+            }
+          ]
         }
       ]
     }
