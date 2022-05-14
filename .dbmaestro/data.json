@@ -91,31 +91,6 @@
           "DatabasesData": []
         }
       ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "8e156ab0-4034-41de-9f02-8af2daef9bec",
-        "ProjectName": "QA_Shared",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "DBConfiguration": {},
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "PreventCommitObjectWithConflict": false,
-          "UseCache": null
-        },
-        "ProjectArchitecture": 1,
-        "LocalDirectory": "C:\\Users\\Aayush Mittal\\Documents\\QA_shared"
-      },
-      "UserData": [
-        {
-          "UserName": "aayush-mittal9",
-          "DatabasesData": []
-        }
-      ]
     }
   ],
   "GlobalConfigurations": null
