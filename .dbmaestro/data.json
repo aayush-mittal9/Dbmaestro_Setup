@@ -72,7 +72,26 @@
         "ProjectId": "f067f810-1af2-4c0d-8ac1-6c9e8a5f4f04",
         "ProjectName": "QA_Shared",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "0a803e6d-ea73-484b-8772-632bee732f09",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "42958ea9-25fd-4448-a561-2360c481c8fb",
+                "DatabaseAliasName": "shared_db",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/aayush-mittal9/DBmaestro_shared.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -88,7 +107,42 @@
       "UserData": [
         {
           "UserName": "aayush-mittal9",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "42958ea9-25fd-4448-a561-2360c481c8fb",
+              "DatabaseAliasName": "shared_db",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "aayush-mittal9",
+                "Password": "FJMskGaST5eiV80icOTldY+cj4O1H5aq6wX40fAkV4RmwTuJA/jiIZ43DMHpxd7x"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "42958ea9-25fd-4448-a561-2360c481c8fb",
+              "DatabaseAliasName": "shared_db",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "AAYUSH\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "shared_db",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ]
     }
