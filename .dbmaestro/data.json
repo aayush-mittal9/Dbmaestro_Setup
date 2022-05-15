@@ -88,6 +88,17 @@
                   "RemoteBranchName": "main",
                   "LocalBranchName": "main"
                 }
+              },
+              {
+                "DatabaseId": "a5bc1610-5a45-41b8-9ced-b299dedae345",
+                "DatabaseAliasName": "Shared_db2",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/aayush-mittal9/Shared_db2.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
               }
             ]
           }
@@ -117,6 +128,16 @@
                 "UserName": "aayush-mittal9",
                 "Password": "FJMskGaST5eiV80icOTldY+cj4O1H5aq6wX40fAkV4RmwTuJA/jiIZ43DMHpxd7x"
               }
+            },
+            {
+              "DatabaseId": "a5bc1610-5a45-41b8-9ced-b299dedae345",
+              "DatabaseAliasName": "Shared_db2",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "aayush-mittal9",
+                "Password": "FJMskGaST5eiV80icOTldY+cj4O1H5aq6wX40fAkV4RmwTuJA/jiIZ43DMHpxd7x"
+              }
             }
           ]
         },
@@ -136,6 +157,25 @@
                     "authType": "SqlAuthentication",
                     "userName": "sa",
                     "dbName": "shared_db",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            },
+            {
+              "DatabaseId": "a5bc1610-5a45-41b8-9ced-b299dedae345",
+              "DatabaseAliasName": "Shared_db2",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "AAYUSH\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "shared_db2",
                     "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 }
