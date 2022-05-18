@@ -21,6 +21,17 @@
                   "RemoteBranchName": "main",
                   "LocalBranchName": "main"
                 }
+              },
+              {
+                "DatabaseId": "33da3102-cf3b-4993-ba80-b1785b318ae9",
+                "DatabaseAliasName": "second_database",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/aayush-mittal9/second_database.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
               }
             ]
           }
@@ -54,6 +65,28 @@
                     "authType": "SqlAuthentication",
                     "userName": "sa",
                     "dbName": "first_db",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "aayush-mittal9",
+                "Password": "FJMskGaST5eiV80icOTldY+cj4O1H5aq6wX40fAkV4RmwTuJA/jiIZ43DMHpxd7x"
+              }
+            },
+            {
+              "DatabaseId": "33da3102-cf3b-4993-ba80-b1785b318ae9",
+              "DatabaseAliasName": "second_database",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "AAYUSH\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "second_db",
                     "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 }
