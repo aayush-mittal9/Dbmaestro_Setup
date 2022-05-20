@@ -218,6 +218,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "6418af3d-0963-424c-ad98-0d752a8135a1",
+        "ProjectName": "Dev_Sandbox",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\Aayush Mittal\\Documents\\Dev_sandbox"
+      },
+      "UserData": [
+        {
+          "UserName": "aayush-mittal9",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
