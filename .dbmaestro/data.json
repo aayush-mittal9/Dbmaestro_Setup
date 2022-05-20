@@ -275,6 +275,17 @@
                     "dbName": "Dev",
                     "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
+                },
+                {
+                  "BranchName": "feature_NewVersion",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "AAYUSH\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "DEV2_feature",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
