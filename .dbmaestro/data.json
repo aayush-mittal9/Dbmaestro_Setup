@@ -224,7 +224,26 @@
         "ProjectId": "6418af3d-0963-424c-ad98-0d752a8135a1",
         "ProjectName": "Dev_Sandbox",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "0948815c-5234-4217-8db0-3dbbd00e7d4c",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "d28ad48b-37da-4f33-a27e-e10e358face5",
+                "DatabaseAliasName": "dev sandbox",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/aayush-mittal9/dev_sandbox_project.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -240,7 +259,30 @@
       "UserData": [
         {
           "UserName": "aayush-mittal9",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "d28ad48b-37da-4f33-a27e-e10e358face5",
+              "DatabaseAliasName": "dev sandbox",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "AAYUSH\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "Dev",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "aayush-mittal9",
+                "Password": "FJMskGaST5eiV80icOTldY+cj4O1H5aq6wX40fAkV4RmwTuJA/jiIZ43DMHpxd7x"
+              }
+            }
+          ]
         }
       ]
     }
