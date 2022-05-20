@@ -272,7 +272,7 @@
                     "host": "AAYUSH\\SQLEXPRESS",
                     "authType": "SqlAuthentication",
                     "userName": "sa",
-                    "dbName": "Dev",
+                    "dbName": "DEV2_feature",
                     "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 },
