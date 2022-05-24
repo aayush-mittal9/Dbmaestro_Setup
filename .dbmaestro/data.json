@@ -122,6 +122,28 @@
                 "UserName": "aayushmittal2",
                 "Password": "hyQ8LHtOQNoJHaiWtvc8xLDYpcBle3ifTtgAESm+ov3LN3F5H+HP1MHm3ToP+16b"
               }
+            },
+            {
+              "DatabaseId": "33da3102-cf3b-4993-ba80-b1785b318ae9",
+              "DatabaseAliasName": "second_database",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "AAYUSH\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "second_db_u2",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "aayushmittal2",
+                "Password": "hyQ8LHtOQNoJHaiWtvc8xLDYpcBle3ifTtgAESm+ov3LN3F5H+HP1MHm3ToP+16b"
+              }
             }
           ]
         }
