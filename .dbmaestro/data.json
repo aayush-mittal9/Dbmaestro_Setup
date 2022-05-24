@@ -343,6 +343,33 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "aayushmittal2",
+          "DatabasesData": [
+            {
+              "DatabaseId": "d28ad48b-37da-4f33-a27e-e10e358face5",
+              "DatabaseAliasName": "dev sandbox",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "AAYUSH\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "DEV2_feature_u2",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "aayushmittal2",
+                "Password": "hyQ8LHtOQNoJHaiWtvc8xLDYpcBle3ifTtgAESm+ov3LN3F5H+HP1MHm3ToP+16b"
+              }
+            }
+          ]
         }
       ]
     }
